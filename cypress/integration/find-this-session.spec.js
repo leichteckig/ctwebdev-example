@@ -17,5 +17,5 @@ describe('Finding this session in c\'t webdev\'s schedule', () => {
         cy.get('#link-slot-145').click();
         cy.get('#overlayContent > article').should('be.visible');
         cy.get('#overlayContent h1').contains('End-to-end Testing wie es sein sollte');
-    })
-})
+    });
+});
